@@ -37,6 +37,8 @@ console.log("La suma de los elementos del array es:", resultado);
 
 ```
 
+![Ejercicio 1](img/ejercicio-1.png)
+
 ### Ejercicio 2: Clasificación de notas
 
 Descripción: Escribe un algoritmo que reciba una nota de un examen (de 0 a 20) y determine si el estudiante aprobó o reprobó. Considera que una nota mayor o igual a 11 es aprobatoria. Luego, implementa el código JavaScript.
@@ -63,6 +65,9 @@ const notaEstudiante = prompt("Ingresa la nota del estudiante (0-20):"); // Soli
 clasificarNota(parseFloat(notaEstudiante)); // Llama a la función con la nota ingresada
 ```
 
+![Ejercicio 2](img/ejercicio-2.png)
+![Ejercicio 2](img/ejercicio-2-2.png)
+
 ### Ejercicio 3: Conversión de grados Celsius a Fahrenheit
 
 Crea una función que reciba una temperatura en grados Celsius y la convierta a Fahrenheit. La fórmula es:
@@ -83,6 +88,8 @@ console.log("10 grados Celsius son:", convertirCelsiusAFahrenheit(10), "grados F
 console.log("20 grados Celsius son:", convertirCelsiusAFahrenheit(20), "grados Fahrenheit");
 console.log("30 grados Celsius son:", convertirCelsiusAFahrenheit(30), "grados Fahrenheit");
 ```
+
+![Ejercicio 3](img/ejercicio-3.png)
 
 ### Ejercicio 4: Encontrar el mayor de tres números
 
@@ -111,6 +118,8 @@ console.log(mayorDeTres(42, 42, 42));       // Debería retornar 42
 console.log(mayorDeTres(3.14, 2.71, 1.61)); // Debería retornar 3.14
 console.log(mayorDeTres(-1.5, -2.5, -0.5)); // Debería retornar -0.5
 ```
+
+![Ejercicio 4](img/ejercicio-4.png)
 
 ### Ejercicio 5: Operaciones con arrays
 
@@ -226,3 +235,5 @@ console.log("Personajes Saiyan:", personajesSaiyan(personajes));
 console.log("Total de ataque:", totalAtaque(personajes));
 console.log("Nombres de personajes:", nombresPersonajes(personajes));
 ```
+
+![Ejercicio 5](img/ejercicio-5.png)
